@@ -32,4 +32,8 @@ public class TransacaoService {
 
         transacoes.forEach(System.out::println);
     }
+
+    public void deletarTodosRegistros() {
+        transacoes.clear();
+    }
 }
